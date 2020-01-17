@@ -13,6 +13,7 @@ public class book {
     private String name; // declaring private variable "name"
     private int quantity; // declaring private variable "quantity"
     private double price; // declaring private variable "price"
+    private int pages;
     
     public book() // creating no-argument constructor to give default values
     {
@@ -44,8 +45,14 @@ public class book {
     {
         return quantity*price;
     }
+    public int getPages(){
+        return pages;
+    }
+    
+    }
+    
    
        
-   } 
+    
     
 
